@@ -6,7 +6,6 @@ const sequelize = require("./config/db");
 const contactRoute = require("./routes/contact");
 
 const app = express();
-const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
